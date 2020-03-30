@@ -1,0 +1,59 @@
+Q1) On a web page, display current date and time.
+Q2) Create a servlet called 'msgboard' in MessageBoardServlet.java. This servlet should present a HTML FORM where a user can enter its name and a message. Both the name and the message are appended to the page when the form is submitted. Invite the other students to add messages to your page. See if you can crash the other student's pages. Have fun!
+
+Hint: use doPost() for the form processing and doGet() for the page display
+
+Advanced: extend the Message Board to enable:
+
+making the messages persistent between runs of the server
+session tracking: a user enters its name only once and not with each message
+
+Q3) Write a program that takes in student details and saves them to db. It also provides admin to download details in a json format
+
+Q4) What is the difference between GET and POST method? What do you mean by an idempotent http method?
+Q5) What is the difference between the content-type set as part of the response and accept set as part of the request?
+Q6)What is the lifecycle of the servlet? Explain the difference between using the Servlet interface, HttpServlet class and GenericServlet
+Q7) What are the tasks performed by the servlet container?
+Q8) What do you mean by ServletContext and ServletConfig object?
+Q9) What is requestDispatcher? What is the difference between doing requestDispatcher.forward and response.sendRedirect
+Q10)What is the difference between RequestDispatcher.forward and requestDispatcher.include?
+Q11) How can we create deadlock situation in servlet?
+Q12) If 100 requests come in at a time, how many servlet obejcts would be created? Are servlets thread-safe? How do you implement thread-safety?
+Q13) What do you mean by inter-servlet communication? How do we do that?
+Q14) What is url encoding? How do we do it for servlets?
+Q15) Why is HTTP called stateless? How do you mantain user sessions on the server?
+Q16) How can you mantain a user session on the client side? Advantages and disadvantages?
+Q17) How can you start a new session killing old session? Demonstrate with example
+Q18) What do you mean by a filter in servlets. Explain the use cases where it can be helpful
+Q19) What do you understand by load-on-startup?
+Q20) Write a servlet to upload a file on the server.
+Q21) What do you mean by a connection pool? How were you mantaining a connection pool in your application? 
+
+Q22) How to get the IP address of client in servlet?
+Q23) Lab 1.1, 2.1
+Q24) what is the difference between web server, web container and a servlet? Give 3 examples of web servers
+Q25) Name the different HTTp methods
+Q26) What do you mean by the static content and dynamic content?
+Q27) Why HTTPServlet is abstract?
+Q28) What is the difference between a war file and a jar file?
+Q29) What information is part of HttpRequest and HttpResponse. List few methods of these interfaces.
+Q30)What is the difference between request.getParameter("") and request.getParameterValues(""). When to use which?
+Q31) Explain the various Http Status Codes. 
+Q32) Write the code to redirect page to google.com after 3 seconds.
+Q33) What is the difference between request, session and application scope? How do you set fields in these scopes using a servlet? Give practical implementation for these scopes, when to use which
+Q34) What is the difference between request.getParameter and request.getAttribute?
+Q35) Why do we need sessions?
+Q36) How can we set a timeout for cookie and a session?
+-------------------JDBC--------------------------
+Q37) What is a transaction? How do you manage transactions in your application?
+Q38) What is the difference between statement and preparedStatement?
+Q39) What is the difference between execute(), executeQuery() and eecuteUpdate() methods of a statement? 
+Q40) What is the difference between using Class.forName to load a  class or loading it by creating an object/ calling a static method of a class?
+Q41) What is the SQLExcepion? Checked or unchecked? How do you handle this kind of exception in your servlet application?
+--------------------Java----------------------------
+Q42) How can you read a property file in the application?
+Q43) What is a checked exception and unchecked exception?
+Q44) Name few design patterns you used in your application.. Where?
+Q45) What do you mean by SOLID design pattern? Explain with examples
+
+Reference:https://www.journaldev.com/2015/servlet-interview-questions-and-answers#servlet-communication
